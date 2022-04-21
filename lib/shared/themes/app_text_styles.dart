@@ -4,7 +4,7 @@ import 'package:app_payflow/shared/themes/appcolors.dart';
 
 class TextStyles {
   static final titleHome = GoogleFonts.lexendDeca(
-    fontSize: 32,
+    fontSize: 30,
     fontWeight: FontWeight.w600,
     color: AppColors.heading,
   );

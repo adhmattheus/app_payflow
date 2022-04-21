@@ -1,4 +1,6 @@
-// ignore_for_file: use_key_in_widget_constructors
+// ignore_for_file: use_key_in_widget_constructors, prefer_const_constructors
+import 'package:app_payflow/modules/home/home_page.dart';
+import 'package:app_payflow/modules/login/login_page.dart';
 import 'package:app_payflow/modules/splash/splash_page.dart';
 import 'package:app_payflow/shared/themes/appcolors.dart';
 import 'package:flutter/material.dart';
@@ -13,7 +15,7 @@ class AppWidget extends StatelessWidget {
     return MaterialApp(
       title: 'Pay Flow',
       theme: ThemeData(primaryColor: AppColors.primary),
-      home: SplashPage(),
+      home: HomePage(),
     );
   }
 }
