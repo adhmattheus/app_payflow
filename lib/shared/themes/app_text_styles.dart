@@ -44,7 +44,7 @@ class TextStyles {
     color: AppColors.primary,
   );
   static final buttonHeading = GoogleFonts.inter(
-    fontSize: 15,
+    fontSize: 14,
     fontWeight: FontWeight.w400,
     color: AppColors.heading,
   );

@@ -47,7 +47,7 @@ class _HomePageState extends State<HomePage> {
                 height: 48,
                 width: 48,
                 decoration: BoxDecoration(
-                    color: Colors.black,
+                    color: Colors.blue,
                     borderRadius: BorderRadius.circular(10)),
               ),
             ),
@@ -69,7 +69,7 @@ class _HomePageState extends State<HomePage> {
               )),
           GestureDetector(
             onTap: () {
-              print("clicou");
+              Navigator.pushNamed(context, "/barcode_scanner");
             },
             child: Container(
               width: 56,
